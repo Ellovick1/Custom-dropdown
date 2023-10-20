@@ -1,0 +1,26 @@
+.custom-dropdown {
+    position: relative;
+    width: 200px;
+    margin: 20px;
+  }
+  
+  .selected-option {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 100%;
+    display: none;
+  }
+  
+  .custom-dropdown.active .options {
+    display: block;
+  }
+  
